@@ -1,0 +1,12 @@
+com.example.chat_app-jetified-window-1.0.0-beta04-0 C:\Users\User\.gradle\caches\transforms-3\10d0c1c50add11c516197c7d04d6b109\transformed\jetified-window-1.0.0-beta04\res
+com.example.chat_app-jetified-window-java-1.0.0-beta04-1 C:\Users\User\.gradle\caches\transforms-3\29b244dbf843c904f3423a78227340cc\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.chat_app-core-1.6.0-2 C:\Users\User\.gradle\caches\transforms-3\2bcc58666d1d067b2a00c7b23b7f0a80\transformed\core-1.6.0\res
+com.example.chat_app-jetified-annotation-experimental-1.1.0-3 C:\Users\User\.gradle\caches\transforms-3\32152967fc3b8d41a204d974ba50bfd4\transformed\jetified-annotation-experimental-1.1.0\res
+com.example.chat_app-debug-4 D:\zzz 2 class apps\chat_app\android\app\src\debug\res
+com.example.chat_app-main-5 D:\zzz 2 class apps\chat_app\android\app\src\main\res
+com.example.chat_app-pngs-6 D:\zzz 2 class apps\chat_app\build\app\generated\res\pngs\debug
+com.example.chat_app-resValues-7 D:\zzz 2 class apps\chat_app\build\app\generated\res\resValues\debug
+com.example.chat_app-rs-8 D:\zzz 2 class apps\chat_app\build\app\generated\res\rs\debug
+com.example.chat_app-mergeDebugResources-9 D:\zzz 2 class apps\chat_app\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.chat_app-mergeDebugResources-10 D:\zzz 2 class apps\chat_app\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.chat_app-merged_res-11 D:\zzz 2 class apps\chat_app\build\app\intermediates\merged_res\debug
