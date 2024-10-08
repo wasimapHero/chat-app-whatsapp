@@ -36,6 +36,37 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 
+  # to connect firebase
+  firebase_core: 
+
+  # to login firebase
+  firebase_auth: 
+
+  # to login via google
+  google_sign_in: 
+
+  # to connect cloud Firestore
+  cloud_firestore: 
+
+  # Date Format use korte
+  intl: 
+
+  # This caching mechanism ensures that the image load time is significantly reduced after the first load.
+  cached_network_image: 
+
+  # Getx
+  get: 
+  
+  # Image Picker
+  image_picker: 
+
+  # Firebase Storage to store file
+  firebase_storage: 
+
+  # emoji picker
+  emoji_picker_flutter:
+
+
 
   
 

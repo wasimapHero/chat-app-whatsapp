@@ -1,10 +1,17 @@
+import 'package:chat_app/firebase_options.dart';
 import 'package:chat_app/screens/Auth/login_screen.dart';
 import 'package:chat_app/screens/homeScreen.dart';
+import 'package:chat_app/screens/spalshScreen.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+
 
 // Global object for accessing device screen size;
 late Size mq;
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  _initialize_Firebase();
   runApp(const MyApp());
 }
 
@@ -14,7 +21,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       // title: 'We Chat',
       theme: ThemeData(
         iconTheme: IconThemeData(color: Colors.black),
@@ -27,8 +34,17 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       // home: const HomeScreen(),
-      home: const LoginScreen(),
+      home: const SplashScreen(),
+      // home: LoginScreen(),
 
     );
   }
 }
+
+
+
+_initialize_Firebase() async{
+ await Firebase.initializeApp (
+   options: DefaultFirebaseOptions.currentPlatform,
+ );
+} 
